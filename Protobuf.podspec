@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.authors  = { 'The Protocol Buffers contributors' => 'protobuf@googlegroups.com' }
   s.cocoapods_version = '>= 1.0'
 
-  s.module_name = 'protobuf'
   s.source = { :git => 'https://github.com/protocolbuffers/protobuf.git',
                :tag => "v#{s.version}" }
 
